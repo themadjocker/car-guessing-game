@@ -1,0 +1,29 @@
+Is it a sports car?
+  +-- Yes
+  |    +-- Does it have two doors?
+  |    |     +-- Yes
+  |    |     |    +-- It's a sports coupe!
+  |    |     +-- No
+  |    |     |    +-- It's a supercar!
+  |    +-- No
+  |        +-- Is it a crossover?
+  |        |    +-- Yes
+  |        |    |    +-- It's an SUV!
+  |        |    +-- No
+  |        |        +-- It's a sedan!
+  +-- No
+      +-- Is it a large car?
+      |    +-- Yes
+      |    |    +-- It's a luxury car!
+      |    +-- No
+      |        +-- Does it have a long bed?
+      |        |    +-- Yes
+      |        |    |    +-- It's a pickup truck!
+      |        |    +-- No
+      |        |        +-- It's a van!
+      +-- No
+          +-- Does it have four-wheel drive?
+          |    +-- Yes
+          |    |    +-- It's an off-road SUV!
+          |    +-- No
+          |        +-- It's a hatchback!
